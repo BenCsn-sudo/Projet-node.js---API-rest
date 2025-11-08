@@ -25,5 +25,5 @@ app.use('/api/users', userRoutes);
 
 // Démarrage serveur
 app.listen(port, () => {
-    console.log(`Serveur en écoute sur le port ${port}`);
+  console.log(`Serveur en écoute sur le port ${port}`);
 });
